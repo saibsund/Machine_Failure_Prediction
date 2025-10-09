@@ -17,10 +17,10 @@ from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 
 api = HfApi()
 
-Xtrain_path = "hf://datasets/saibsund/machine-failure-prediction/Xtrain.csv"
-Xtest_path = "hf://datasets/saibsund/machine-failure-prediction/Xtest.csv"
-ytrain_path = "hf://datasets/saibsund/machine-failure-prediction/ytrain.csv"
-ytest_path = "hf://datasets/saibsund/machine-failure-prediction/ytest.csv"
+Xtrain_path = "hf://datasets/saibsund/Machine-Failure-Prediction/Xtrain.csv"
+Xtest_path = "hf://datasets/saibsund/Machine-Failure-Prediction/Xtest.csv"
+ytrain_path = "hf://datasets/saibsund/Machine-Failure-Prediction/ytrain.csv"
+ytest_path = "hf://datasets/saibsund/Machine-Failure-Prediction/ytest.csv"
 
 Xtrain = pd.read_csv(Xtrain_path)
 Xtest = pd.read_csv(Xtest_path)
